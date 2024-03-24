@@ -1,0 +1,15 @@
+sudo su
+apt update
+apt install docker.io
+  systemctl start docker
+systemctl enable docker
+docker pull nginx
+docker images
+git clone
+cd ngnix1
+ls
+docker file
+cat docker file
+docker build -t nginx .
+docker run -d -p 80:80 nginx
+check ip 
