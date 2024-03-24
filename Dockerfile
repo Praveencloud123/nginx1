@@ -6,7 +6,6 @@ RUN apt-get update
 
 # Install Nginx
 RUN apt-get install -y nginx
-rm -rf /var/lib/apt/lists/*
 
 # Expose ports
 EXPOSE 80
