@@ -6,10 +6,7 @@ RUN apt-get update
 
 # Install Nginx
 RUN apt-get install -y nginx
-
-# Copy Nginx configuration files
-COPY nginx1.conf /etc/nginx/nginx1.conf
-# If you have additional configuration files or static content, you can copy them here
+rm -rf /var/lib/apt/lists/*
 
 # Expose ports
 EXPOSE 80
