@@ -10,6 +10,6 @@ cd ngnix1
 ls
 docker file
 cat docker file
-docker build -t custom-nginx-image
+docker build -t custom-nginx-image .
 docker run -d -p 80:80 nginx
 check ip 
